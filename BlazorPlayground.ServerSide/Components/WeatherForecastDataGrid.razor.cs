@@ -12,8 +12,5 @@ namespace BlazorPlayground.ServerSide.Components
 
         [Parameter]
         public WeatherForecastDisplayModeSelection WeatherForecastDisplayModeSelection { get; set; }
-
-        [Parameter]
-        public EventCallback<WeatherForecastDisplayModeSelection> WeatherForecastDisplayModeSelectionChanged { get; set; }
     }
 }
