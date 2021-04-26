@@ -1,0 +1,7 @@
+﻿@*<MudCheckBox @bind-Checked="@WeatherForecastDisplayModeSelection.Detailed" @onchange="ChangeSelection" Label="Display detailed forecast"></MudCheckBox>*@
+
+@*<EditForm Model="@WeatherForecastDisplayModeSelection" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit" class="form">
+    <InputCheckbox @bind-Value="@WeatherForecastDisplayModeSelection.Detailed" @onchange="ChangeSelection"></InputCheckbox> Display detailed forecast
+</EditForm>*@
+
+<input type="checkbox" checked="@WeatherForecastDisplayModeSelection.Detailed" @onchange="ChangeSelection" /> Display detailed forecast

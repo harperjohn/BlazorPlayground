@@ -1,0 +1,14 @@
+﻿@page "/"
+@page "/Index"
+
+<MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mt-16">
+
+    <MudText Typo="Typo.h3" GutterBottom="true">Forecast</MudText>
+
+    <WeatherForecastDisplayModeSelect @bind-WeatherForecastDisplayModeSelection="@WeatherForecastDisplayModeSelection" />
+    
+    <WeatherForecastDataGrid Data="@WeatherForecasts" @bind-WeatherForecastDisplayModeSelection="@WeatherForecastDisplayModeSelection" />
+
+</MudContainer>
+
+

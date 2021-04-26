@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/BlazorPlayground.ServerSide/bin/Debug/net5.0
+/BlazorPlayground.ServerSide/obj
+/BlazorPlayground.ServerSide/Properties
