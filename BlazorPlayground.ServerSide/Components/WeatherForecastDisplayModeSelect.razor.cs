@@ -37,6 +37,9 @@ namespace BlazorPlayground.ServerSide.Components
             {
                 WeatherForecastDisplayModeSelection.Detailed = false;
             }
+            var x = WeatherForecastDisplayModeSelectionChanged;
+
+          
 
             await WeatherForecastDisplayModeSelectionChanged.InvokeAsync(WeatherForecastDisplayModeSelection);
         }
